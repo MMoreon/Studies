@@ -1,4 +1,4 @@
-import random as r
+import random as r 
 import time
 
 def sort(lst):
@@ -13,7 +13,6 @@ def sort(lst):
 t_start = time.monotonic()
 
 count = 1000
-# lst = list(range(count))
 lst = [r.randint(0, count) for i in range(count)]
 
 print("Random" + str(lst))
