@@ -1,0 +1,22 @@
+C:\Users\traff\source\repos\Lab_rab5\Lab_rab5\bin\Debug\Lab_rab5.exe.config
+C:\Users\traff\source\repos\Lab_rab5\Lab_rab5\bin\Debug\Lab_rab5.exe
+C:\Users\traff\source\repos\Lab_rab5\Lab_rab5\bin\Debug\Lab_rab5.pdb
+C:\Users\traff\source\repos\Lab_rab5\Lab_rab5\obj\Debug\Lab_rab5.csproj.AssemblyReference.cache
+C:\Users\traff\source\repos\Lab_rab5\Lab_rab5\obj\Debug\Lab_rab5.csproj.SuggestedBindingRedirects.cache
+C:\Users\traff\source\repos\Lab_rab5\Lab_rab5\obj\Debug\Lab_rab5.Form1.resources
+C:\Users\traff\source\repos\Lab_rab5\Lab_rab5\obj\Debug\Lab_rab5.Properties.Resources.resources
+C:\Users\traff\source\repos\Lab_rab5\Lab_rab5\obj\Debug\Lab_rab5.csproj.GenerateResource.cache
+C:\Users\traff\source\repos\Lab_rab5\Lab_rab5\obj\Debug\Lab_rab5.csproj.CoreCompileInputs.cache
+C:\Users\traff\source\repos\Lab_rab5\Lab_rab5\obj\Debug\Lab_rab5.exe
+C:\Users\traff\source\repos\Lab_rab5\Lab_rab5\obj\Debug\Lab_rab5.pdb
+C:\Users\traff\Source\Repos\MMoreon\Studies\Разработка ПП\Lab1\S.R.5\Lab_rab5\bin\Debug\Lab_rab5.exe.config
+C:\Users\traff\Source\Repos\MMoreon\Studies\Разработка ПП\Lab1\S.R.5\Lab_rab5\bin\Debug\Lab_rab5.exe
+C:\Users\traff\Source\Repos\MMoreon\Studies\Разработка ПП\Lab1\S.R.5\Lab_rab5\bin\Debug\Lab_rab5.pdb
+C:\Users\traff\Source\Repos\MMoreon\Studies\Разработка ПП\Lab1\S.R.5\Lab_rab5\obj\Debug\Lab_rab5.csproj.AssemblyReference.cache
+C:\Users\traff\Source\Repos\MMoreon\Studies\Разработка ПП\Lab1\S.R.5\Lab_rab5\obj\Debug\Lab_rab5.csproj.SuggestedBindingRedirects.cache
+C:\Users\traff\Source\Repos\MMoreon\Studies\Разработка ПП\Lab1\S.R.5\Lab_rab5\obj\Debug\Lab_rab5.Form1.resources
+C:\Users\traff\Source\Repos\MMoreon\Studies\Разработка ПП\Lab1\S.R.5\Lab_rab5\obj\Debug\Lab_rab5.Properties.Resources.resources
+C:\Users\traff\Source\Repos\MMoreon\Studies\Разработка ПП\Lab1\S.R.5\Lab_rab5\obj\Debug\Lab_rab5.csproj.GenerateResource.cache
+C:\Users\traff\Source\Repos\MMoreon\Studies\Разработка ПП\Lab1\S.R.5\Lab_rab5\obj\Debug\Lab_rab5.csproj.CoreCompileInputs.cache
+C:\Users\traff\Source\Repos\MMoreon\Studies\Разработка ПП\Lab1\S.R.5\Lab_rab5\obj\Debug\Lab_rab5.exe
+C:\Users\traff\Source\Repos\MMoreon\Studies\Разработка ПП\Lab1\S.R.5\Lab_rab5\obj\Debug\Lab_rab5.pdb

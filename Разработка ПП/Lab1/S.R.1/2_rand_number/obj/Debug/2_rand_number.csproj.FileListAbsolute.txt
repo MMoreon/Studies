@@ -1,0 +1,11 @@
+C:\Users\traff\source\repos\2_rand_number\2_rand_number\bin\Debug\2_rand_number.exe.config
+C:\Users\traff\source\repos\2_rand_number\2_rand_number\bin\Debug\2_rand_number.exe
+C:\Users\traff\source\repos\2_rand_number\2_rand_number\bin\Debug\2_rand_number.pdb
+C:\Users\traff\source\repos\2_rand_number\2_rand_number\obj\Debug\2_rand_number.csproj.AssemblyReference.cache
+C:\Users\traff\source\repos\2_rand_number\2_rand_number\obj\Debug\2_rand_number.csproj.SuggestedBindingRedirects.cache
+C:\Users\traff\source\repos\2_rand_number\2_rand_number\obj\Debug\_2_rand_number.Form1.resources
+C:\Users\traff\source\repos\2_rand_number\2_rand_number\obj\Debug\_2_rand_number.Properties.Resources.resources
+C:\Users\traff\source\repos\2_rand_number\2_rand_number\obj\Debug\2_rand_number.csproj.GenerateResource.cache
+C:\Users\traff\source\repos\2_rand_number\2_rand_number\obj\Debug\2_rand_number.csproj.CoreCompileInputs.cache
+C:\Users\traff\source\repos\2_rand_number\2_rand_number\obj\Debug\2_rand_number.exe
+C:\Users\traff\source\repos\2_rand_number\2_rand_number\obj\Debug\2_rand_number.pdb
