@@ -1,1 +1,1 @@
-![](https://sun9-74.userapi.com/impg/X_aZWsim_L2Ovrr6CQ3QtYvwQNtxAf0mo1cO2w/dyQ5zDxGlLI.jpg?size=604x307&quality=96&sign=a297c02c342401ebd07ff2bf02be8012&type=album)
+![](https://sun9-88.userapi.com/impg/y-Cb6o4OE2oijNm_OKyWaTjrtt0fyeQrIRuzHQ/AjplEYv1pfk.jpg?size=627x323&quality=96&sign=d930cb878e1ac6eaf3a0a763556e474e&type=album)
