@@ -5,30 +5,13 @@
 
 Затраты памяти О(n)
 
-    ```python
-    
-    def find_line(lst, elem):
-    
-        for i in range(len(lst)):
-        
-            if lst[i] == elem:
-            
-                return i
-                
-        return -1
-        
-    ```
 
 ```python
 
-x = int(input())
-
-if x > 0:
-
-    print(x)
-
-else:
-
-    print(-x)
+def find_line(lst, elem):
+    for i in range(len(lst)):
+        if lst[i] == elem:
+            return i
+    return -1
 
 ```
