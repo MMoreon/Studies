@@ -4,3 +4,11 @@
 Сложность времени в наихудшем случае О(n)
 
 Затраты памяти О(n)
+
+'''Python
+def find_line(lst, elem):
+    for i in range(len(lst)):
+        if lst[i] == elem:
+            return i
+    return -1
+'''
