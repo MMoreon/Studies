@@ -20,9 +20,18 @@ let rout = "exactmatch/ru/male/v5/search";
 let queryStr = "page=1&ab_testing=false&appType=1&curr=rub&dest=12358373&query=коврик для мышки&resultset=catalog&sort=popular&spp=30&suppressSpellcheck=false&uclusters=1&uiv=2";
 
 // требуется преобразовать строку запроса если там кириллица в Unicode
-let query = new URLSearchParams(queryStr).toString(); // можно так - ver 1
+let query = new URLSearchParams(queryStr)
+let decodedParams = {};
+
+for (let [key, value] of queryParams.entries()) {
+  decodedParams[key] = decodeURIComponent(value);
+}
+
+// .toString(); // можно так - ver 1
 // можно через stringify + replace - ver 2
 // на этой лабе требуется через Object.keys() - ver 3
+
+
 
 let headers = require("./headers.json");
 

@@ -6,7 +6,12 @@ const express = require('express'),
 let json = [ 
     {
         'id': 12,
-        'title': 'Мероприятие'
+        'title': 'Мероприятие',
+        'description': 'описание',
+        'date': 'дата',
+        'time': 'время начала',
+        'status': 'предстоит, выполнено, просрочено',
+        'priority': 'важное, обычное, можно не делать'
     }
 ]
 
