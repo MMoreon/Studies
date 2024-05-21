@@ -23,7 +23,7 @@ let queryStr = "page=1&ab_testing=false&appType=1&curr=rub&dest=12358373&query=Ð
 let query = new URLSearchParams(queryStr)
 let decodedParams = {};
 
-for (let [key, value] of queryParams.entries()) {
+for (let [key, value] of query.entries()) {
   decodedParams[key] = decodeURIComponent(value);
 }
 
