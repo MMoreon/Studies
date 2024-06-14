@@ -1,13 +1,3 @@
-Ôªøusing System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
 namespace S.R._2._3
 {
     public partial class Form1 : Form
@@ -31,7 +21,7 @@ namespace S.R._2._3
 
             if (timer1.Enabled != true)
             {
-                MessageBox.Show("–ü–£–°–ö", "–í–Ω–∏–º–∞–Ω–∏–µ!");
+                MessageBox.Show("œ”— ", "¬ÌËÏ‡ÌËÂ!");
                 this.Close();
             }
         }

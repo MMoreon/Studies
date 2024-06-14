@@ -1,0 +1,16 @@
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\obj\Debug\net8.0-windows\Lab.7.2.csproj.GenerateResource.cache
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\obj\Debug\net8.0-windows\Lab.7.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\obj\Debug\net8.0-windows\Lab.7.2.AssemblyInfoInputs.cache
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\obj\Debug\net8.0-windows\Lab.7.2.AssemblyInfo.cs
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\obj\Debug\net8.0-windows\Lab.7.2.csproj.CoreCompileInputs.cache
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\bin\Debug\net8.0-windows\Lab.7.2.exe
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\bin\Debug\net8.0-windows\Lab.7.2.deps.json
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\bin\Debug\net8.0-windows\Lab.7.2.runtimeconfig.json
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\bin\Debug\net8.0-windows\Lab.7.2.dll
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\bin\Debug\net8.0-windows\Lab.7.2.pdb
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\obj\Debug\net8.0-windows\Lab._7._2.Form1.resources
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\obj\Debug\net8.0-windows\Lab.7.2.dll
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\obj\Debug\net8.0-windows\refint\Lab.7.2.dll
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\obj\Debug\net8.0-windows\Lab.7.2.pdb
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\obj\Debug\net8.0-windows\Lab.7.2.genruntimeconfig.cache
+C:\Users\MM0r3\source\repos\Lab7\Lab.7.2\obj\Debug\net8.0-windows\ref\Lab.7.2.dll

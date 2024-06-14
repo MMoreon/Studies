@@ -1,0 +1,16 @@
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\bin\Debug\net8.0-windows\S.R.7.1.exe
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\bin\Debug\net8.0-windows\S.R.7.1.deps.json
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\bin\Debug\net8.0-windows\S.R.7.1.runtimeconfig.json
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\bin\Debug\net8.0-windows\S.R.7.1.dll
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\bin\Debug\net8.0-windows\S.R.7.1.pdb
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\obj\Debug\net8.0-windows\S.R._7._1.Form1.resources
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\obj\Debug\net8.0-windows\S.R.7.1.csproj.GenerateResource.cache
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\obj\Debug\net8.0-windows\S.R.7.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\obj\Debug\net8.0-windows\S.R.7.1.AssemblyInfoInputs.cache
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\obj\Debug\net8.0-windows\S.R.7.1.AssemblyInfo.cs
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\obj\Debug\net8.0-windows\S.R.7.1.csproj.CoreCompileInputs.cache
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\obj\Debug\net8.0-windows\S.R.7.1.dll
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\obj\Debug\net8.0-windows\refint\S.R.7.1.dll
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\obj\Debug\net8.0-windows\S.R.7.1.pdb
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\obj\Debug\net8.0-windows\S.R.7.1.genruntimeconfig.cache
+C:\Users\MM0r3\source\repos\Lab7\S.R.7.1\obj\Debug\net8.0-windows\ref\S.R.7.1.dll

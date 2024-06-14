@@ -1,12 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace S.R._3._3
@@ -29,12 +20,8 @@ namespace S.R._3._3
             label1.Text = Convert.ToString(trackBar1.Value) + "%";
             label2.Text = Convert.ToString(trackBar2.Value) + "%";
         }
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void trackBar1_Scroll(object sender, EventArgs e)
+        private void trackBar1_ValueChanged(object sender, EventArgs e)
         {
             float a;
             a = pictureBox1.Image.PhysicalDimension.Width / 5;
@@ -42,7 +29,7 @@ namespace S.R._3._3
             pictureBox1.Width = (Int16)(a / 100 * trackBar1.Value);
         }
 
-        private void trackBar2_Scroll(object sender, EventArgs e)
+        private void trackBar2_ValueChanged(object sender, EventArgs e)
         {
             float b;
             b = pictureBox1.Image.PhysicalDimension.Height / 3;

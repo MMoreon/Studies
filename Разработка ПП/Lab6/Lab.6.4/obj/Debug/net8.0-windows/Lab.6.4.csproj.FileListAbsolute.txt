@@ -1,0 +1,16 @@
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\bin\Debug\net8.0-windows\Lab.6.4.exe
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\bin\Debug\net8.0-windows\Lab.6.4.deps.json
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\bin\Debug\net8.0-windows\Lab.6.4.runtimeconfig.json
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\bin\Debug\net8.0-windows\Lab.6.4.dll
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\bin\Debug\net8.0-windows\Lab.6.4.pdb
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\obj\Debug\net8.0-windows\Lab._6._4.Form1.resources
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\obj\Debug\net8.0-windows\Lab.6.4.csproj.GenerateResource.cache
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\obj\Debug\net8.0-windows\Lab.6.4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\obj\Debug\net8.0-windows\Lab.6.4.AssemblyInfoInputs.cache
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\obj\Debug\net8.0-windows\Lab.6.4.AssemblyInfo.cs
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\obj\Debug\net8.0-windows\Lab.6.4.csproj.CoreCompileInputs.cache
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\obj\Debug\net8.0-windows\Lab.6.4.dll
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\obj\Debug\net8.0-windows\refint\Lab.6.4.dll
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\obj\Debug\net8.0-windows\Lab.6.4.pdb
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\obj\Debug\net8.0-windows\Lab.6.4.genruntimeconfig.cache
+C:\Users\MM0r3\source\repos\Lab6\Lab.6.4\obj\Debug\net8.0-windows\ref\Lab.6.4.dll

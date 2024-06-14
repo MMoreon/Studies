@@ -1,14 +1,3 @@
-Ôªøusing System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
 namespace S.R._3._2
 {
     public partial class Form1 : Form
@@ -32,7 +21,7 @@ namespace S.R._3._2
             res += name + " " + Convert.ToString(cost) + "\n";
             label1.Text = res;
             sum += cost;
-            label2.Text = "–ò—Ç–æ–≥–æ: " + Convert.ToString(sum) + Convert.ToString("—Ä.");
+            label2.Text = "»ÚÓ„Ó: " + Convert.ToString(sum) + Convert.ToString(".");
         }
     }
 }

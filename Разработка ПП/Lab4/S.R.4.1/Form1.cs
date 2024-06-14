@@ -1,13 +1,3 @@
-ï»¿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
 namespace S.R._4._1
 {
     public partial class Form1 : Form
@@ -27,7 +17,7 @@ namespace S.R._4._1
             Random n = new Random();
             for (i = 0; i < 10; i++)
                 Mas[i] = n.Next(-100, 100);
-            // Ð’Ñ‹Ð²Ð¾Ð´Ð¸Ð¼ Ð½Ð° ÑÐºÑ€Ð°Ð½:
+            // Âûâîäèì íà ýêðàí:
             foreach (int elem in Mas)
                 label1.Text = label1.Text + elem + " ";
         }
@@ -38,12 +28,12 @@ namespace S.R._4._1
             {
                 if (Mas[i] == Convert.ToInt32(textBox1.Text))
                 {
-                    label3.Text = "Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ " + textBox1.Text + " Ð½Ð° " + Convert.ToString(i + 1) + " Ð¿Ð¾Ð·Ð¸Ñ†Ð¸Ð¸.";
+                    label3.Text = "Ýëåìåíò " + textBox1.Text + " íà ïîçèöèè " + Convert.ToString(i + 1);
                     break;
                 }
                 else
                 {
-                    label3.Text = "Ð¢Ð°ÐºÐ¾Ð³Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ð½ÐµÑ‚";
+                    label3.Text = "Òàêîãî ýëåìåíòà íåò";
                 }
             }
             textBox1.Clear();

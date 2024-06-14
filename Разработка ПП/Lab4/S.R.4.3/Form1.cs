@@ -1,61 +1,52 @@
-п»їusing System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace L.R._4._4
+namespace S.R._4._3
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-            /* РЎРѕР·РґР°РµРј СЌР»РµРјРµРЅС‚С‹ СЃРїРёСЃРєР° comboBox РґР»СЏ РІС‚РѕСЂРѕР№
-            РєРѕР»РѕРЅРєРё:(РЅРµ Р·Р°Р±СѓРґСЊС‚Рµ, РёРЅРґРµРєСЃР°С†РёСЏ СЃС‚СЂРѕРє Рё СЃС‚РѕР»Р±С†РѕРІ
-            РЅР°С‡РёРЅР°РµС‚СЃСЏ СЃ РЅСѓР»СЏ) */
-            ((DataGridViewComboBoxColumn)dataGridView1.Columns[1]
-            ).Items.AddRange(new string[] { "РџРРќР±-21Р°", "РџРРќР±-21Р±" });
-            // Р—Р°РґР°РµРј С†РІРµС‚ С„РѕРЅР° РєРѕРјРїРѕРЅРµРЅС‚Р°:
+            ((DataGridViewComboBoxColumn)dataGridView1.Columns[1]).Items.AddRange(new string[] { "ИС-31", "ИС-32" });
+            // Задаем цвет фона компонента:
             dataGridView1.BackgroundColor = this.BackColor;
-            // РЈР±РёСЂР°РµРј СЂР°РјРєСѓ:
+            // Убираем рамку:
             dataGridView1.BorderStyle = BorderStyle.None;
-            // Р—Р°РґР°РµРј СЂР°Р·РјРµСЂС‹ С‚Р°Р±Р»РёС†С‹:
-            dataGridView1.Width = 700;
+            // Задаем размеры таблицы:
+            dataGridView1.Width = 760;
             dataGridView1.Height = 160;
-            // РЎРѕР·РґР°РµРј РІРµСЂС‚РёРєР°Р»СЊРЅСѓСЋ РїРѕР»РѕСЃСѓ РїСЂРѕРєСЂСѓС‚РєРё:
+            // Создаем вертикальную полосу прокрутки:
             dataGridView1.ScrollBars = ScrollBars.Vertical;
-            // Р—Р°РґР°РµРј РІС‹СЂР°РІРЅРёРІР°РЅРёРµ С‚РµРєСЃС‚Р° РІ СЏС‡РµР№РєР°С… РїРѕ С†РµРЅС‚СЂСѓ:
+            // Задаем выравнивание текста в ячейках по центру:
             dataGridView1.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
         }
 
-
         private void button1_Click(object sender, EventArgs e)
         {
-            int i, countOne = 0 , countTwo = 0;
-            // Р•СЃР»Рё Сѓ РЅР°СЃ 5 РЅР°С‡Р°Р»СЊРЅС‹С… РєРѕР»РѕРЅРѕРє, С„РѕСЂРјРёСЂСѓРµРј РµС‰Рµ РѕРґРЅСѓ
+            int i, countOne = 0, countTwo = 0;
+            // Если у нас 5 начальных колонок, формируем еще одну
             if (dataGridView1.ColumnCount == 5)
-                dataGridView1.Columns.Add("Column5","Р”РѕРїСѓСЃРє Рє СЌРєР·Р°РјРµРЅСѓ");
-            dataGridView1.Columns[5].Width = 140;
+                dataGridView1.Columns.Add("Column5",
+                "Допуск к экзамену");
+            dataGridView1.Columns[5].Width = 155;
+            /* Смотрим во всех строках на результаты сдачи
+            лабораторных: */
             for (i = 0; i < dataGridView1.RowCount; i++)
-                /* РџСЂРѕРІРµСЂРєР° РїРѕ С„Р»Р°РіСѓ*/
+            {
+                /* dataGridView1.Rows[i].Cells[2].Value возращает значение "флага",
+                 а именно: true, если пользователь выбрал ячейку и false, если нет.
+                код "dataGridView1.Rows[i].Cells[2].Value != null" изначально дан с ошибкой*/
                 if (Convert.ToBoolean(dataGridView1.Rows[i].Cells[2].Value) == true
                     && Convert.ToBoolean(dataGridView1.Rows[i].Cells[3].Value) == true
                     && Convert.ToBoolean(dataGridView1.Rows[i].Cells[4].Value) == true)
-                { 
-                    // Р•СЃР»Рё РІСЃРµ СЃРґР°РЅРѕ- РїРёС€РµРј В«Р”РѕРїСѓС‰РµРЅВ» Рё
-                    // Р·Р°РєСЂР°С€РёРІР°РµРј СЃС‚СЂРѕРєСѓ:
-                    dataGridView1.Rows[i].Cells[5].Value = "Р”РѕРїСѓС‰РµРЅ";
+                {
+                    dataGridView1.Rows[i].Cells[5].Value = "Допущен";
                     dataGridView1.Rows[i].DefaultCellStyle.BackColor = Color.MistyRose;
-                    if (Convert.ToString(dataGridView1.Rows[i].Cells[1].Value) == "РџРРќР±-21Р°")
+                    if (Convert.ToString(dataGridView1.Rows[i].Cells[1].Value) == "ИС-31")
                     {
                         countOne += 1;
                     }
-                    if (Convert.ToString(dataGridView1.Rows[i].Cells[1].Value) == "РџРРќР±-21Р±")
+                    if (Convert.ToString(dataGridView1.Rows[i].Cells[1].Value) == "ИС-32")
                     {
                         countTwo += 1;
                     }
@@ -65,28 +56,9 @@ namespace L.R._4._4
                     dataGridView1.Rows[i].Cells[5].Value = "";
                     dataGridView1.Rows[i].DefaultCellStyle.BackColor = Color.White;
                 }
-            label2.Text = "Р’ РіСЂСѓРїРїРµ РџРРќР±-21Р° РґРѕРїСѓС‰РµРЅРѕ: " + Convert.ToString(countOne);
-            label3.Text = "Р’ РіСЂСѓРїРїРµ РџРРќР±-21Р± РґРѕРїСѓС‰РµРЅРѕ: " + Convert.ToString(countTwo);
-
-        
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
+            }
+            label2.Text = "В группе ИС-31 допущено: " + Convert.ToString(countOne);
+            label3.Text = "В группе ИС-32 допущено: " + Convert.ToString(countTwo);
         }
     }
 }
-
-    
-

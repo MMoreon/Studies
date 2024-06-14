@@ -1,14 +1,3 @@
-п»їusing System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-
 namespace S.R._5._3
 {
     public partial class Form1 : Form
@@ -20,12 +9,12 @@ namespace S.R._5._3
             InitializeComponent();
             textBox1.HideSelection = false;
             curDate = DateTime.Now;
-            textBox1.Text += $"{curDate.AddDays(-2).ToShortDateString()} РџРѕСЃРјРѕС‚СЂРµС‚СЊ \"Р”СЂР°Р№РІ\"" + "\n";
-            textBox1.Text += $"{curDate.AddDays(-1).ToShortDateString()} РљСѓРїРёС‚СЊ РїРµСЂС‡Р°С‚РєРё" + "\n";
-            textBox1.Text += $"{curDate.ToShortDateString()} РљСѓРїРёС‚СЊ РјРѕР»РѕС‚РѕРє" + "\n";
-            textBox1.Text += $"{curDate.AddDays(1).ToShortDateString()} Р—Р°С‰РёС‚РёС‚СЊ СЃРѕСЃРµРґРєСѓ" + "\n";
-            textBox1.Text += $"{curDate.AddDays(2).ToShortDateString()} РќРµ СѓРјРµСЂРµС‚СЊ РІ РєРѕРЅС†Рµ" + "\n";
-        } 
+            textBox1.Text += $"{curDate.AddDays(-2).ToShortDateString()} Сходить к зубному\n";
+            textBox1.Text += $"{curDate.AddDays(-1).ToShortDateString()} Купить перчатки\n";
+            textBox1.Text += $"{curDate.ToShortDateString()} Принять гостей\n";
+            textBox1.Text += $"{curDate.AddDays(1).ToShortDateString()} Полить цветы\n";
+            textBox1.Text += $"{curDate.AddDays(2).ToShortDateString()} Починить телевизор\n";
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -40,7 +29,7 @@ namespace S.R._5._3
             }
             else
             {
-                MessageBox.Show("РџРѕРёСЃРє РЅРµ РґР°Р» СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ");
+                MessageBox.Show("Поиск не дал результатов");
                 p = 0;
             }
             p = 0;

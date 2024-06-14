@@ -28,76 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("sbyte");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("byte");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("short");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("ushort");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("int");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("uint");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("long");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("ulong");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Integral", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3,
-            treeNode4,
-            treeNode5,
-            treeNode6,
-            treeNode7,
-            treeNode8});
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("char");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Characters", new System.Windows.Forms.TreeNode[] {
-            treeNode10});
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("float");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("double");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Floating", new System.Windows.Forms.TreeNode[] {
-            treeNode12,
-            treeNode13});
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("decimal");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Decimal", new System.Windows.Forms.TreeNode[] {
-            treeNode15});
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("bool");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Boolean", new System.Windows.Forms.TreeNode[] {
-            treeNode17});
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Simple types", new System.Windows.Forms.TreeNode[] {
-            treeNode9,
-            treeNode11,
-            treeNode14,
-            treeNode16,
-            treeNode18});
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Enum types");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Struct types");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Nullable types");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Value types", new System.Windows.Forms.TreeNode[] {
-            treeNode19,
-            treeNode20,
-            treeNode21,
-            treeNode22});
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("object");
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("string");
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("class");
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Class types", new System.Windows.Forms.TreeNode[] {
-            treeNode24,
-            treeNode25,
-            treeNode26});
-            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Interface types");
-            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Array types");
-            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Delegate types");
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Reference types", new System.Windows.Forms.TreeNode[] {
-            treeNode27,
-            treeNode28,
-            treeNode29,
-            treeNode30});
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("C# Data types", new System.Windows.Forms.TreeNode[] {
-            treeNode23,
-            treeNode31});
-            this.treeView1 = new System.Windows.Forms.TreeView();
-            this.SuspendLayout();
+            TreeNode treeNode1 = new TreeNode("sbyte");
+            TreeNode treeNode2 = new TreeNode("byte");
+            TreeNode treeNode3 = new TreeNode("short");
+            TreeNode treeNode4 = new TreeNode("ushort");
+            TreeNode treeNode5 = new TreeNode("int");
+            TreeNode treeNode6 = new TreeNode("uint");
+            TreeNode treeNode7 = new TreeNode("long");
+            TreeNode treeNode8 = new TreeNode("ulong");
+            TreeNode treeNode9 = new TreeNode("Integral", new TreeNode[] { treeNode1, treeNode2, treeNode3, treeNode4, treeNode5, treeNode6, treeNode7, treeNode8 });
+            TreeNode treeNode10 = new TreeNode("char");
+            TreeNode treeNode11 = new TreeNode("Characters", new TreeNode[] { treeNode10 });
+            TreeNode treeNode12 = new TreeNode("float");
+            TreeNode treeNode13 = new TreeNode("double");
+            TreeNode treeNode14 = new TreeNode("Floating", new TreeNode[] { treeNode12, treeNode13 });
+            TreeNode treeNode15 = new TreeNode("decimal");
+            TreeNode treeNode16 = new TreeNode("Decimal", new TreeNode[] { treeNode15 });
+            TreeNode treeNode17 = new TreeNode("bool");
+            TreeNode treeNode18 = new TreeNode("Boolean", new TreeNode[] { treeNode17 });
+            TreeNode treeNode19 = new TreeNode("Simple types", new TreeNode[] { treeNode9, treeNode11, treeNode14, treeNode16, treeNode18 });
+            TreeNode treeNode20 = new TreeNode("Enum types");
+            TreeNode treeNode21 = new TreeNode("Struct types");
+            TreeNode treeNode22 = new TreeNode("Nullable types");
+            TreeNode treeNode23 = new TreeNode("Value types", new TreeNode[] { treeNode19, treeNode20, treeNode21, treeNode22 });
+            TreeNode treeNode24 = new TreeNode("object");
+            TreeNode treeNode25 = new TreeNode("string");
+            TreeNode treeNode26 = new TreeNode("class");
+            TreeNode treeNode27 = new TreeNode("Class types", new TreeNode[] { treeNode24, treeNode25, treeNode26 });
+            TreeNode treeNode28 = new TreeNode("Interface types");
+            TreeNode treeNode29 = new TreeNode("Array types");
+            TreeNode treeNode30 = new TreeNode("Delegate types");
+            TreeNode treeNode31 = new TreeNode("Reference types", new TreeNode[] { treeNode27, treeNode28, treeNode29, treeNode30 });
+            TreeNode treeNode32 = new TreeNode("C# Data types", new TreeNode[] { treeNode23, treeNode31 });
+            treeView1 = new TreeView();
+            SuspendLayout();
             // 
             // treeView1
             // 
-            this.treeView1.Location = new System.Drawing.Point(12, 13);
-            this.treeView1.Name = "treeView1";
+            treeView1.Location = new Point(15, 15);
+            treeView1.Margin = new Padding(4, 3, 4, 3);
+            treeView1.Name = "treeView1";
             treeNode1.Name = "Узел12";
             treeNode1.Text = "sbyte";
             treeNode2.Name = "Узел13";
@@ -162,21 +132,21 @@
             treeNode31.Text = "Reference types";
             treeNode32.Name = "Узел0";
             treeNode32.Text = "C# Data types";
-            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode32});
-            this.treeView1.Size = new System.Drawing.Size(375, 293);
-            this.treeView1.TabIndex = 0;
+            treeView1.Nodes.AddRange(new TreeNode[] { treeNode32 });
+            treeView1.Size = new Size(437, 337);
+            treeView1.TabIndex = 0;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(400, 318);
-            this.Controls.Add(this.treeView1);
-            this.Name = "Form1";
-            this.Text = "Иерархия типов данных C#";
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.MediumPurple;
+            ClientSize = new Size(467, 367);
+            Controls.Add(treeView1);
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "Form1";
+            Text = "Иерархия типов данных C#";
+            ResumeLayout(false);
         }
 
         #endregion

@@ -1,12 +1,3 @@
-п»їusing System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace S.R._5._2
@@ -21,8 +12,8 @@ namespace S.R._5._2
             dataTwo = dateTimePicker2.Value;
             while (dataOne != dataTwo)
             {
-                if (dataOne.DayOfWeek == DayOfWeek.Saturday) label4.Text += $"{dataOne}, СЃСѓР±Р±РѕС‚Р°\n";
-                if (dataOne.DayOfWeek == DayOfWeek.Sunday) label4.Text += $"{dataOne}, РІРѕСЃРєСЂРµСЃРµРЅСЊРµ\n";
+                if (dataOne.DayOfWeek == DayOfWeek.Saturday) label4.Text += $"{dataOne}, суббота\n";
+                if (dataOne.DayOfWeek == DayOfWeek.Sunday) label4.Text += $"{dataOne}, воскресенье\n";
                 dataOne = dataOne.AddDays(1);
             }
         }

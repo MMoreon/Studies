@@ -28,88 +28,103 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.trackBar2 = new System.Windows.Forms.TrackBar();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
-            // 
-            // trackBar1
-            // 
-            this.trackBar1.Location = new System.Drawing.Point(75, 12);
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(572, 45);
-            this.trackBar1.TabIndex = 0;
-            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
-            // 
-            // trackBar2
-            // 
-            this.trackBar2.Location = new System.Drawing.Point(24, 50);
-            this.trackBar2.Name = "trackBar2";
-            this.trackBar2.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar2.Size = new System.Drawing.Size(45, 445);
-            this.trackBar2.TabIndex = 1;
-            this.trackBar2.Scroll += new System.EventHandler(this.trackBar2_Scroll);
+            pictureBox1 = new PictureBox();
+            trackBar1 = new TrackBar();
+            trackBar2 = new TrackBar();
+            toolTip1 = new ToolTip(components);
+            label1 = new Label();
+            label2 = new Label();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar2).BeginInit();
+            SuspendLayout();
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(75, 63);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            pictureBox1.InitialImage = (Image)resources.GetObject("pictureBox1.InitialImage");
+            pictureBox1.Location = new Point(64, 73);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(115, 99);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // trackBar1
+            // 
+            trackBar1.Location = new Point(53, 22);
+            trackBar1.Maximum = 100;
+            trackBar1.Minimum = 1;
+            trackBar1.Name = "trackBar1";
+            trackBar1.RightToLeft = RightToLeft.No;
+            trackBar1.Size = new Size(360, 45);
+            trackBar1.TabIndex = 1;
+            trackBar1.TickFrequency = 10;
+            toolTip1.SetToolTip(trackBar1, "Ширина изображения");
+            trackBar1.Value = 1;
+            trackBar1.ValueChanged += trackBar1_ValueChanged;
+            // 
+            // trackBar2
+            // 
+            trackBar2.Location = new Point(13, 62);
+            trackBar2.Maximum = 100;
+            trackBar2.Minimum = 1;
+            trackBar2.Name = "trackBar2";
+            trackBar2.Orientation = Orientation.Vertical;
+            trackBar2.RightToLeft = RightToLeft.No;
+            trackBar2.Size = new Size(45, 360);
+            trackBar2.TabIndex = 2;
+            trackBar2.TickFrequency = 10;
+            toolTip1.SetToolTip(trackBar2, "Высота изображения");
+            trackBar2.Value = 100;
+            trackBar2.ValueChanged += trackBar2_ValueChanged;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(653, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
-            this.label1.TabIndex = 3;
+            label1.AutoSize = true;
+            label1.Location = new Point(433, 28);
+            label1.Name = "label1";
+            label1.Size = new Size(0, 17);
+            label1.TabIndex = 3;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 502);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 13);
-            this.label2.TabIndex = 4;
+            label2.AutoSize = true;
+            label2.Location = new Point(19, 430);
+            label2.Name = "label2";
+            label2.Size = new Size(0, 17);
+            label2.TabIndex = 4;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 528);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.trackBar2);
-            this.Controls.Add(this.trackBar1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 16F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.MediumPurple;
+            ClientSize = new Size(524, 463);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(trackBar2);
+            Controls.Add(trackBar1);
+            Controls.Add(pictureBox1);
+            Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 254);
+            Margin = new Padding(4);
+            Name = "Form1";
+            Text = "Масштабирование изображения";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar2).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private System.Windows.Forms.TrackBar trackBar1;
-        private System.Windows.Forms.TrackBar trackBar2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TrackBar trackBar1;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.TrackBar trackBar2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }
 }
-

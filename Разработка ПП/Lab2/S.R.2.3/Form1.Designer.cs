@@ -28,37 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            label1 = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(86, 80);
-            this.label1.MaximumSize = new System.Drawing.Size(121, 121);
-            this.label1.MinimumSize = new System.Drawing.Size(121, 121);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(121, 121);
-            this.label1.TabIndex = 0;
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 254);
+            label1.Location = new Point(64, 42);
+            label1.Name = "label1";
+            label1.Size = new Size(0, 46);
+            label1.TabIndex = 0;
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // timer1
             // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            timer1.Enabled = true;
+            timer1.Interval = 10;
+            timer1.Tick += timer1_Tick;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(288, 319);
-            this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 16F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.MediumPurple;
+            ClientSize = new Size(179, 134);
+            Controls.Add(label1);
+            Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 254);
+            Margin = new Padding(4);
+            Name = "Form1";
+            Text = "Обратный отчет";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -67,4 +70,3 @@
         private System.Windows.Forms.Timer timer1;
     }
 }
-

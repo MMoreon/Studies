@@ -1,25 +1,24 @@
-п»їusing System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace S.R._4._2
 {
     public partial class Form1 : Form
     {
-        const int n = 3; // n- СЃС‚РѕР»Р±С†С‹
-        const int m = 3; // m- СЃС‚СЂРѕРєРё
+        const int n = 3; // n- число столбцов
+        const int m = 3; // m- число строк
         int i, j;
-        int mat1, mat2, mat3, mat4, mat5, mat6, det; // РѕРїСЂРµРґРµР»РёС‚РµР»СЊ
+        int mat1, mat2, mat3, mat4, mat5, mat6, det; // для нахождения определителя
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            label1.Text = "";
+            dataGridView1.DefaultCellStyle.BackColor = Color.White;
+            // Заполняем ячейки:
+            Random r = new Random();
+            for (i = 0; i < n; i++)
+                for (j = 0; j < m; j++)
+                    dataGridView1.Rows[i].Cells[j].Value =
+                    (r.Next(-5, 5)).ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -37,7 +36,7 @@ namespace S.R._4._2
             mat6 = Convert.ToInt32(dataGridView1.Rows[1].Cells[0].Value) * Convert.ToInt32(dataGridView1.Rows[0].Cells[1].Value) *
                 Convert.ToInt32(dataGridView1.Rows[2].Cells[2].Value);
             det = mat1 + mat2 + mat3 - mat4 - mat5 - mat6;
-            label1.Text = "РћРїСЂРµРґРµР»РёС‚РµР»СЊ СЂР°РІРµРЅ " + Convert.ToString(det);
+            label1.Text = "Определитель равен " + Convert.ToString(det);
         }
 
         public Form1()
@@ -53,18 +52,6 @@ namespace S.R._4._2
             dataGridView1.Width = 320;
             dataGridView1.Height = 160;
             dataGridView1.Font = new Font("Arial", 14);
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            label1.Text = "";
-            dataGridView1.DefaultCellStyle.BackColor = Color.White;
-            // Р—Р°РїРѕР»РЅСЏРµРј СЏС‡РµР№РєРё:
-            Random r = new Random();
-            for (i = 0; i < n; i++)
-                for (j = 0; j < m; j++)
-                    dataGridView1.Rows[i].Cells[j].Value =
-                    (r.Next(-5, 5)).ToString();
         }
     }
 }
